@@ -52,7 +52,7 @@ const App = () => {
               <Box marginRight={5}>
                 <PlatformSelector
                   selectedPlatform={gameQuery.platform}
-                  onSelectPlatfrom={(platform) =>
+                  onSelectPlatform={(platform) =>
                     setGameQuery({ ...gameQuery, platform })
                   }
                 />
