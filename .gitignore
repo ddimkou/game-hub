@@ -23,6 +23,3 @@ dist-ssr
 *.sln
 *.sw?
 
-# temporarry 'till the time to upload it and create a .env file
-#the api doesnt fetch from .env while thy project is on localhost
-src/services/api-client.ts
